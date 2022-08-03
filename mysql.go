@@ -19,7 +19,7 @@ var db *sql.DB
 
 func connectDB() {
 
-	dbb, err := sql.Open("mysql", "root:Tarun@7275@/mydb")
+	dbb, err := sql.Open("mysql", "**********")
 
     if err != nil {
         panic(err.Error())        
